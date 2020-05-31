@@ -29,9 +29,5 @@ def detectEdges(frame):
 	edgesDetectedImage = cv2.Canny(blurredImage, 10, 70)
 
 	return edgesDetectedImage
-    
-    # Do an invert binarize the image 
-    #ret, mask = cv2.threshold(canny_edges, 70, 255, cv2.THRESH_BINARY_INV)
-    #return mask
 
 main()

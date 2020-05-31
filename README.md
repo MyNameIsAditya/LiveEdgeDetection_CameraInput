@@ -1,6 +1,6 @@
-# Color Separator
+# Live Edge Detection (Camera Input)
 
-Created an application that separates the color of an image based on RGB values. Users can choose to view the individual red, green, and blue components of an image. They separated colors are also graphed and compared in a separate window. They can also choose to view the original image itself. This project uses OpenCv and NumPy.
+Created an application that takes a video input from a camera and detects edges dynamically. This project uses OpenCv and NumPy.
 
 ## Technologies
 1. OpenCV
